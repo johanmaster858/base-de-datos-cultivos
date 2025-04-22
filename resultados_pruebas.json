@@ -1,0 +1,338 @@
+{
+  "Zona cafetera": {
+    "parametros": {
+      "temperatura": 21.0,
+      "precipitacion": 2200,
+      "altitud": 1500,
+      "tipo_suelo": "Franco",
+      "ph_suelo": 5.8,
+      "experiencia": "Media",
+      "preferencia_mercado": "Exportación"
+    },
+    "recomendaciones": [
+      {
+        "id_cultivo": 33,
+        "nombre": "Café",
+        "tipo": "Estimulante",
+        "descripcion": "Cultivo emblemático de Colombia, base de la economía agrícola en muchas regiones.",
+        "ciclo_dias": 1095,
+        "densidad_siembra": "625-1,100 plantas/ha",
+        "puntuacion": 60.0,
+        "condiciones_optimas": {
+          "temperatura": "18 - 22 °C",
+          "precipitacion": "1800 - 2500 mm/año",
+          "altitud": "1200 - 2000 msnm",
+          "tipo_suelo": "Franco arcilloso",
+          "ph_suelo": "5.5 - 6.5"
+        },
+        "costos": {
+          "inversion_inicial": "15,000,000 - 20,000,000 COP/ha",
+          "costo_operativo": "8,000,000 COP/ha",
+          "precio_interno": "19,000 COP/kg",
+          "precio_exportacion": "2.25 USD/kg",
+          "rentabilidad_estimada": "25.00%"
+        },
+        "plagas_enfermedades": [
+          {
+            "nombre": "Broca del café",
+            "tipo": "Insecto",
+            "severidad": "Alta",
+            "control": "Control cultural (RE-RE), control biológico con Beauveria bassiana, trampas."
+          }
+        ],
+        "insumos_recomendados": [
+          {
+            "nombre": "Benomil",
+            "categoria": "Fungicida",
+            "cantidad_por_ha": "0.5 kg",
+            "etapa_aplicacion": "Control de enfermedades",
+            "precio_promedio": "45,000 COP/kg"
+          }
+        ],
+        "tecnicas_recomendadas": [
+          {
+            "nombre": "Control biológico",
+            "categoria": "Control de plagas",
+            "importancia": "Recomendada",
+            "descripcion": "Uso de enemigos naturales para controlar plagas.",
+            "beneficios": "Reduce uso de químicos, sostenible, menor impacto ambiental."
+          },
+          {
+            "nombre": "Manejo integrado de plagas",
+            "categoria": "Control de plagas",
+            "importancia": "Esencial",
+            "descripcion": "Estrategia que combina diferentes métodos de control.",
+            "beneficios": "Reduce uso de químicos, más sostenible, control más efectivo."
+          },
+          {
+            "nombre": "Compostaje",
+            "categoria": "Manejo de residuos",
+            "importancia": "Recomendada",
+            "descripcion": "Transformación de residuos orgánicos en abono.",
+            "beneficios": "Reduce costos de fertilización, mejora suelo, manejo sostenible de residuos."
+          }
+        ],
+        "certificaciones_aplicables": [
+          {
+            "nombre": "Orgánica",
+            "entidad": "Varias certificadoras",
+            "mercado_objetivo": "Europa, Estados Unidos, Japón",
+            "premium_precio": "30%"
+          },
+          {
+            "nombre": "Rainforest Alliance",
+            "entidad": "Rainforest Alliance",
+            "mercado_objetivo": "Europa, Estados Unidos",
+            "premium_precio": "15%"
+          },
+          {
+            "nombre": "Fairtrade",
+            "entidad": "Fairtrade International",
+            "mercado_objetivo": "Europa, Estados Unidos",
+            "premium_precio": "20%"
+          },
+          {
+            "nombre": "Denominación de Origen",
+            "entidad": "SIC Colombia",
+            "mercado_objetivo": "Global",
+            "premium_precio": "25%"
+          }
+        ]
+      }
+    ]
+  },
+  "Zona costera": {
+    "parametros": {
+      "temperatura": 28.0,
+      "precipitacion": 1500,
+      "altitud": 200,
+      "tipo_suelo": "Arenoso",
+      "ph_suelo": 6.5,
+      "experiencia": "Baja",
+      "preferencia_mercado": "Local"
+    },
+    "error": "'puntuacion'"
+  },
+  "Zona andina alta": {
+    "parametros": {
+      "temperatura": 14.0,
+      "precipitacion": 900,
+      "altitud": 2800,
+      "tipo_suelo": "Franco arcilloso",
+      "ph_suelo": 5.5,
+      "experiencia": "Alta",
+      "preferencia_mercado": "Local"
+    },
+    "recomendaciones": [
+      {
+        "id_cultivo": 12,
+        "nombre": "Papa",
+        "tipo": "Tubérculo",
+        "descripcion": "Tubérculo fundamental en la dieta de la región andina colombiana.",
+        "ciclo_dias": 150,
+        "densidad_siembra": "40,000-50,000 plantas/ha",
+        "puntuacion": 96.17,
+        "condiciones_optimas": {
+          "temperatura": "12 - 18 °C",
+          "precipitacion": "700 - 1200 mm/año",
+          "altitud": "2500 - 3400 msnm",
+          "tipo_suelo": "Franco volcánico",
+          "ph_suelo": "5.0 - 6.5"
+        },
+        "costos": {
+          "inversion_inicial": "8,000,000 - 12,000,000 COP/ha",
+          "costo_operativo": "6,000,000 COP/ha",
+          "precio_interno": "1,000 COP/kg",
+          "precio_exportacion": "No disponible",
+          "rentabilidad_estimada": "25.00%"
+        },
+        "plagas_enfermedades": [
+          {
+            "nombre": "Gota de la papa",
+            "tipo": "Oomiceto",
+            "severidad": "Alta",
+            "control": "Fungicidas preventivos y curativos, variedades resistentes, manejo de humedad."
+          }
+        ],
+        "insumos_recomendados": [
+          {
+            "nombre": "Cal dolomita",
+            "categoria": "Enmienda",
+            "cantidad_por_ha": "500.0 kg",
+            "etapa_aplicacion": "Preparación del suelo",
+            "precio_promedio": "500 COP/kg"
+          },
+          {
+            "nombre": "Clorpirifos",
+            "categoria": "Insecticida",
+            "cantidad_por_ha": "1.0 l",
+            "etapa_aplicacion": "Control de plagas",
+            "precio_promedio": "38,000 COP/l"
+          },
+          {
+            "nombre": "Mancozeb",
+            "categoria": "Fungicida",
+            "cantidad_por_ha": "2.0 kg",
+            "etapa_aplicacion": "Control de enfermedades",
+            "precio_promedio": "28,000 COP/kg"
+          },
+          {
+            "nombre": "Tubérculo-semilla de papa",
+            "categoria": "Semilla",
+            "cantidad_por_ha": "2000.0 kg",
+            "etapa_aplicacion": "Siembra",
+            "precio_promedio": "3,500 COP/kg"
+          }
+        ],
+        "tecnicas_recomendadas": [
+          {
+            "nombre": "Fertilización fraccionada",
+            "categoria": "Nutrición",
+            "importancia": "Esencial",
+            "descripcion": "Aplicación de fertilizantes en varias dosis durante el ciclo.",
+            "beneficios": "Mayor eficiencia, reduce pérdidas por lixiviación."
+          },
+          {
+            "nombre": "Manejo integrado de plagas",
+            "categoria": "Control de plagas",
+            "importancia": "Esencial",
+            "descripcion": "Estrategia que combina diferentes métodos de control.",
+            "beneficios": "Reduce uso de químicos, más sostenible, control más efectivo."
+          }
+        ]
+      },
+      {
+        "id_cultivo": 4,
+        "nombre": "Cebada",
+        "tipo": "Cereal",
+        "descripcion": "Cereal utilizado principalmente para la industria cervecera y como forraje.",
+        "ciclo_dias": 150,
+        "densidad_siembra": "100-120 kg semilla/ha",
+        "puntuacion": 83.4,
+        "condiciones_optimas": {
+          "temperatura": "10 - 18 °C",
+          "precipitacion": "700 - 1200 mm/año",
+          "altitud": "1800 - 3000 msnm",
+          "tipo_suelo": "Franco",
+          "ph_suelo": "5.5 - 7.0"
+        },
+        "costos": {
+          "inversion_inicial": "4,000,000 - 6,000,000 COP/ha",
+          "costo_operativo": "3,000,000 COP/ha",
+          "precio_interno": "1,000 COP/kg",
+          "precio_exportacion": "No disponible",
+          "rentabilidad_estimada": "8.00%"
+        }
+      },
+      {
+        "id_cultivo": 29,
+        "nombre": "Mora",
+        "tipo": "Frutal",
+        "descripcion": "Frutal de clima frío con buena demanda en el mercado nacional.",
+        "ciclo_dias": 730,
+        "densidad_siembra": "100,000 plantas/ha",
+        "puntuacion": 66.6,
+        "condiciones_optimas": {
+          "temperatura": "13 - 18 °C",
+          "precipitacion": "600 - 1000 mm/año",
+          "altitud": "1800 - 3000 msnm",
+          "tipo_suelo": "Franco arenoso, bien drenado",
+          "ph_suelo": "5.5 - 6.5"
+        },
+        "costos": {
+          "inversion_inicial": "8,000,000 - 12,000,000 COP/ha",
+          "costo_operativo": "6,000,000 COP/ha",
+          "precio_interno": "1,750 COP/kg",
+          "precio_exportacion": "2.50 USD/kg",
+          "rentabilidad_estimada": "22.00%"
+        },
+        "plagas_enfermedades": [
+          {
+            "nombre": "Antracnosis",
+            "tipo": "Hongo",
+            "severidad": "Media",
+            "control": "Fungicidas protectantes y sistémicos, manejo de humedad."
+          }
+        ],
+        "tecnicas_recomendadas": [
+          {
+            "nombre": "Cosecha escalonada",
+            "categoria": "Cosecha",
+            "importancia": "Esencial",
+            "descripcion": "Recolección en diferentes momentos según madurez.",
+            "beneficios": "Optimiza calidad, extiende período de comercialización."
+          }
+        ]
+      },
+      {
+        "id_cultivo": 3,
+        "nombre": "Trigo",
+        "tipo": "Cereal",
+        "descripcion": "Cereal de clima frío, cultivado principalmente en el altiplano Cundiboyacense y Nariño.",
+        "ciclo_dias": 165,
+        "densidad_siembra": "100-150 kg semilla/ha",
+        "puntuacion": 64.67,
+        "condiciones_optimas": {
+          "temperatura": "12 - 18 °C",
+          "precipitacion": "800 - 1250 mm/año",
+          "altitud": "2000 - 3000 msnm",
+          "tipo_suelo": "Franco arcilloso",
+          "ph_suelo": "5.5 - 7.0"
+        },
+        "costos": {
+          "inversion_inicial": "4,000,000 - 6,000,000 COP/ha",
+          "costo_operativo": "3,000,000 COP/ha",
+          "precio_interno": "1,200 COP/kg",
+          "precio_exportacion": "No disponible",
+          "rentabilidad_estimada": "10.00%"
+        },
+        "plagas_enfermedades": [
+          {
+            "nombre": "Roya del trigo",
+            "tipo": "Hongo",
+            "severidad": "Media",
+            "control": "Fungicidas sistémicos, variedades resistentes, rotación de cultivos."
+          }
+        ]
+      }
+    ]
+  },
+  "Llanos orientales": {
+    "parametros": {
+      "temperatura": 27.0,
+      "precipitacion": 2500,
+      "altitud": 300,
+      "tipo_suelo": "Franco",
+      "ph_suelo": 5.0,
+      "experiencia": "Media",
+      "preferencia_mercado": "Ambos"
+    },
+    "recomendaciones": [
+      {
+        "id_cultivo": 36,
+        "nombre": "Palma de aceite",
+        "tipo": "Oleaginosa",
+        "descripcion": "Cultivo oleaginoso de gran expansión en Colombia.",
+        "ciclo_dias": 1825,
+        "densidad_siembra": "143 palmas/ha",
+        "puntuacion": 90.0,
+        "condiciones_optimas": {
+          "temperatura": "24 - 30 °C",
+          "precipitacion": "2000 - 3000 mm/año",
+          "altitud": "0 - 500 msnm",
+          "tipo_suelo": "Franco arcilloso",
+          "ph_suelo": "4.5 - 6.0"
+        },
+        "tecnicas_recomendadas": [
+          {
+            "nombre": "Agricultura de precisión",
+            "categoria": "Tecnología",
+            "importancia": "Recomendada",
+            "descripcion": "Uso de tecnologías para optimizar insumos según variabilidad espacial.",
+            "beneficios": "Optimiza recursos, reduce costos, aumenta eficiencia."
+          }
+        ]
+      }
+    ]
+  }
+}

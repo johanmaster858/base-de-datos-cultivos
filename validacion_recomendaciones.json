@@ -1,0 +1,21 @@
+{
+  "Zona cafetera": {
+    "estado": "válido",
+    "mensaje": "Recomendaciones coherentes con parámetros",
+    "detalles": []
+  },
+  "Zona costera": {
+    "estado": "error",
+    "mensaje": "'puntuacion'"
+  },
+  "Zona andina alta": {
+    "estado": "válido",
+    "mensaje": "Recomendaciones coherentes con parámetros",
+    "detalles": []
+  },
+  "Llanos orientales": {
+    "estado": "válido",
+    "mensaje": "Recomendaciones coherentes con parámetros",
+    "detalles": []
+  }
+}

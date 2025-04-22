@@ -1,0 +1,266 @@
+{
+  "1": {
+    "id_cultivo": 1,
+    "nombre": "Maíz",
+    "tipo": "Cereal",
+    "descripcion": "Cereal básico de la alimentación colombiana, cultivado tanto por pequeños agricultores como por medianos productores tecnificados.",
+    "ciclo_dias": 120,
+    "densidad_siembra": "50,000-60,000 plantas/ha",
+    "puntuacion": 100,
+    "condiciones_optimas": {
+      "temperatura": "24 - 30 °C",
+      "precipitacion": "800 - 1500 mm/año",
+      "altitud": "0 - 2700 msnm",
+      "tipo_suelo": "Franco, bien drenado",
+      "ph_suelo": "5.5 - 7.0"
+    },
+    "costos": {
+      "inversion_inicial": "3,000,000 - 5,000,000 COP/ha",
+      "costo_operativo": "2,500,000 COP/ha",
+      "precio_interno": "900 COP/kg",
+      "precio_exportacion": "No disponible",
+      "rentabilidad_estimada": "15.00%"
+    },
+    "plagas_enfermedades": [
+      {
+        "nombre": "Gusano cogollero",
+        "tipo": "Insecto",
+        "severidad": "Alta",
+        "control": "Control biológico con Bacillus thuringiensis, control químico con insecticidas específicos."
+      }
+    ],
+    "insumos_recomendados": [
+      {
+        "nombre": "Urea",
+        "categoria": "Fertilizante",
+        "cantidad_por_ha": "200.0 kg",
+        "etapa_aplicacion": "Crecimiento",
+        "precio_promedio": "2,500 COP/kg"
+      },
+      {
+        "nombre": "DAP",
+        "categoria": "Fertilizante",
+        "cantidad_por_ha": "100.0 kg",
+        "etapa_aplicacion": "Siembra",
+        "precio_promedio": "3,200 COP/kg"
+      },
+      {
+        "nombre": "KCl",
+        "categoria": "Fertilizante",
+        "cantidad_por_ha": "100.0 kg",
+        "etapa_aplicacion": "Crecimiento",
+        "precio_promedio": "2,800 COP/kg"
+      },
+      {
+        "nombre": "Glifosato",
+        "categoria": "Herbicida",
+        "cantidad_por_ha": "3.0 l",
+        "etapa_aplicacion": "Preparación del suelo",
+        "precio_promedio": "25,000 COP/l"
+      },
+      {
+        "nombre": "Cipermetrina",
+        "categoria": "Insecticida",
+        "cantidad_por_ha": "0.5 l",
+        "etapa_aplicacion": "Control de plagas",
+        "precio_promedio": "35,000 COP/l"
+      },
+      {
+        "nombre": "Semilla de maíz híbrido",
+        "categoria": "Semilla",
+        "cantidad_por_ha": "20.0 kg",
+        "etapa_aplicacion": "Siembra",
+        "precio_promedio": "35,000 COP/kg"
+      }
+    ],
+    "tecnicas_recomendadas": [
+      {
+        "nombre": "Labranza mínima",
+        "categoria": "Preparación del suelo",
+        "importancia": "Recomendada",
+        "descripcion": "Técnica que minimiza la perturbación del suelo, manteniendo cobertura vegetal.",
+        "beneficios": "Reduce erosión, conserva humedad, mejora estructura del suelo."
+      },
+      {
+        "nombre": "Rotación de cultivos",
+        "categoria": "Manejo agronómico",
+        "importancia": "Recomendada",
+        "descripcion": "Alternancia de diferentes cultivos en la misma área.",
+        "beneficios": "Mejora fertilidad del suelo, reduce plagas y enfermedades."
+      },
+      {
+        "nombre": "Asociación de cultivos",
+        "categoria": "Manejo agronómico",
+        "importancia": "Opcional",
+        "descripcion": "Siembra simultánea de diferentes especies compatibles.",
+        "beneficios": "Optimiza uso del espacio, reduce plagas, diversifica producción."
+      }
+    ]
+  },
+  "12": {
+    "id_cultivo": 12,
+    "nombre": "Papa",
+    "tipo": "Tubérculo",
+    "descripcion": "Tubérculo fundamental en la dieta de la región andina colombiana.",
+    "ciclo_dias": 150,
+    "densidad_siembra": "40,000-50,000 plantas/ha",
+    "puntuacion": 100,
+    "condiciones_optimas": {
+      "temperatura": "12 - 18 °C",
+      "precipitacion": "700 - 1200 mm/año",
+      "altitud": "2500 - 3400 msnm",
+      "tipo_suelo": "Franco volcánico",
+      "ph_suelo": "5.0 - 6.5"
+    },
+    "costos": {
+      "inversion_inicial": "8,000,000 - 12,000,000 COP/ha",
+      "costo_operativo": "6,000,000 COP/ha",
+      "precio_interno": "1,000 COP/kg",
+      "precio_exportacion": "No disponible",
+      "rentabilidad_estimada": "25.00%"
+    },
+    "plagas_enfermedades": [
+      {
+        "nombre": "Gota de la papa",
+        "tipo": "Oomiceto",
+        "severidad": "Alta",
+        "control": "Fungicidas preventivos y curativos, variedades resistentes, manejo de humedad."
+      }
+    ],
+    "insumos_recomendados": [
+      {
+        "nombre": "Cal dolomita",
+        "categoria": "Enmienda",
+        "cantidad_por_ha": "500.0 kg",
+        "etapa_aplicacion": "Preparación del suelo",
+        "precio_promedio": "500 COP/kg"
+      },
+      {
+        "nombre": "Clorpirifos",
+        "categoria": "Insecticida",
+        "cantidad_por_ha": "1.0 l",
+        "etapa_aplicacion": "Control de plagas",
+        "precio_promedio": "38,000 COP/l"
+      },
+      {
+        "nombre": "Mancozeb",
+        "categoria": "Fungicida",
+        "cantidad_por_ha": "2.0 kg",
+        "etapa_aplicacion": "Control de enfermedades",
+        "precio_promedio": "28,000 COP/kg"
+      },
+      {
+        "nombre": "Tubérculo-semilla de papa",
+        "categoria": "Semilla",
+        "cantidad_por_ha": "2000.0 kg",
+        "etapa_aplicacion": "Siembra",
+        "precio_promedio": "3,500 COP/kg"
+      }
+    ],
+    "tecnicas_recomendadas": [
+      {
+        "nombre": "Fertilización fraccionada",
+        "categoria": "Nutrición",
+        "importancia": "Esencial",
+        "descripcion": "Aplicación de fertilizantes en varias dosis durante el ciclo.",
+        "beneficios": "Mayor eficiencia, reduce pérdidas por lixiviación."
+      },
+      {
+        "nombre": "Manejo integrado de plagas",
+        "categoria": "Control de plagas",
+        "importancia": "Esencial",
+        "descripcion": "Estrategia que combina diferentes métodos de control.",
+        "beneficios": "Reduce uso de químicos, más sostenible, control más efectivo."
+      }
+    ]
+  },
+  "33": {
+    "id_cultivo": 33,
+    "nombre": "Café",
+    "tipo": "Estimulante",
+    "descripcion": "Cultivo emblemático de Colombia, base de la economía agrícola en muchas regiones.",
+    "ciclo_dias": 1095,
+    "densidad_siembra": "625-1,100 plantas/ha",
+    "puntuacion": 100,
+    "condiciones_optimas": {
+      "temperatura": "18 - 22 °C",
+      "precipitacion": "1800 - 2500 mm/año",
+      "altitud": "1200 - 2000 msnm",
+      "tipo_suelo": "Franco arcilloso",
+      "ph_suelo": "5.5 - 6.5"
+    },
+    "costos": {
+      "inversion_inicial": "15,000,000 - 20,000,000 COP/ha",
+      "costo_operativo": "8,000,000 COP/ha",
+      "precio_interno": "19,000 COP/kg",
+      "precio_exportacion": "2.25 USD/kg",
+      "rentabilidad_estimada": "25.00%"
+    },
+    "plagas_enfermedades": [
+      {
+        "nombre": "Broca del café",
+        "tipo": "Insecto",
+        "severidad": "Alta",
+        "control": "Control cultural (RE-RE), control biológico con Beauveria bassiana, trampas."
+      }
+    ],
+    "insumos_recomendados": [
+      {
+        "nombre": "Benomil",
+        "categoria": "Fungicida",
+        "cantidad_por_ha": "0.5 kg",
+        "etapa_aplicacion": "Control de enfermedades",
+        "precio_promedio": "45,000 COP/kg"
+      }
+    ],
+    "tecnicas_recomendadas": [
+      {
+        "nombre": "Control biológico",
+        "categoria": "Control de plagas",
+        "importancia": "Recomendada",
+        "descripcion": "Uso de enemigos naturales para controlar plagas.",
+        "beneficios": "Reduce uso de químicos, sostenible, menor impacto ambiental."
+      },
+      {
+        "nombre": "Manejo integrado de plagas",
+        "categoria": "Control de plagas",
+        "importancia": "Esencial",
+        "descripcion": "Estrategia que combina diferentes métodos de control.",
+        "beneficios": "Reduce uso de químicos, más sostenible, control más efectivo."
+      },
+      {
+        "nombre": "Compostaje",
+        "categoria": "Manejo de residuos",
+        "importancia": "Recomendada",
+        "descripcion": "Transformación de residuos orgánicos en abono.",
+        "beneficios": "Reduce costos de fertilización, mejora suelo, manejo sostenible de residuos."
+      }
+    ],
+    "certificaciones_aplicables": [
+      {
+        "nombre": "Orgánica",
+        "entidad": "Varias certificadoras",
+        "mercado_objetivo": "Europa, Estados Unidos, Japón",
+        "premium_precio": "30%"
+      },
+      {
+        "nombre": "Rainforest Alliance",
+        "entidad": "Rainforest Alliance",
+        "mercado_objetivo": "Europa, Estados Unidos",
+        "premium_precio": "15%"
+      },
+      {
+        "nombre": "Fairtrade",
+        "entidad": "Fairtrade International",
+        "mercado_objetivo": "Europa, Estados Unidos",
+        "premium_precio": "20%"
+      },
+      {
+        "nombre": "Denominación de Origen",
+        "entidad": "SIC Colombia",
+        "mercado_objetivo": "Global",
+        "premium_precio": "25%"
+      }
+    ]
+  }
+}

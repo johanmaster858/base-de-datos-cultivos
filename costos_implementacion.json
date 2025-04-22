@@ -1,0 +1,151 @@
+{
+  "1_1.0ha": {
+    "area_hectareas": 1.0,
+    "inversion_inicial": {
+      "rango": "3,000,000 - 5,000,000 COP",
+      "promedio": "4,000,000 COP"
+    },
+    "costos_operativos": {
+      "total": "2,500,000 COP",
+      "desglose": {
+        "insumos": {
+          "total": "1,892,500 COP",
+          "detalle": [
+            {
+              "nombre": "Urea",
+              "categoria": "Fertilizante",
+              "cantidad": "200.0 kg",
+              "precio_unitario": "2,500 COP/kg",
+              "subtotal": "500,000 COP"
+            },
+            {
+              "nombre": "DAP",
+              "categoria": "Fertilizante",
+              "cantidad": "100.0 kg",
+              "precio_unitario": "3,200 COP/kg",
+              "subtotal": "320,000 COP"
+            },
+            {
+              "nombre": "KCl",
+              "categoria": "Fertilizante",
+              "cantidad": "100.0 kg",
+              "precio_unitario": "2,800 COP/kg",
+              "subtotal": "280,000 COP"
+            },
+            {
+              "nombre": "Glifosato",
+              "categoria": "Herbicida",
+              "cantidad": "3.0 l",
+              "precio_unitario": "25,000 COP/l",
+              "subtotal": "75,000 COP"
+            },
+            {
+              "nombre": "Cipermetrina",
+              "categoria": "Insecticida",
+              "cantidad": "0.5 l",
+              "precio_unitario": "35,000 COP/l",
+              "subtotal": "17,500 COP"
+            },
+            {
+              "nombre": "Semilla de maíz híbrido",
+              "categoria": "Semilla",
+              "cantidad": "20.0 kg",
+              "precio_unitario": "35,000 COP/kg",
+              "subtotal": "700,000 COP"
+            }
+          ]
+        },
+        "mano_obra": "1,000,000 COP",
+        "otros": "250,000 COP"
+      }
+    },
+    "estimacion_ingresos": {
+      "precio_interno": "900 COP/kg",
+      "precio_exportacion": "No disponible",
+      "rentabilidad_estimada": "15.00%"
+    }
+  },
+  "12_2.5ha": {
+    "area_hectareas": 2.5,
+    "inversion_inicial": {
+      "rango": "20,000,000 - 30,000,000 COP",
+      "promedio": "25,000,000 COP"
+    },
+    "costos_operativos": {
+      "total": "15,000,000 COP",
+      "desglose": {
+        "insumos": {
+          "total": "18,360,000 COP",
+          "detalle": [
+            {
+              "nombre": "Cal dolomita",
+              "categoria": "Enmienda",
+              "cantidad": "1250.0 kg",
+              "precio_unitario": "500 COP/kg",
+              "subtotal": "625,000 COP"
+            },
+            {
+              "nombre": "Clorpirifos",
+              "categoria": "Insecticida",
+              "cantidad": "2.5 l",
+              "precio_unitario": "38,000 COP/l",
+              "subtotal": "95,000 COP"
+            },
+            {
+              "nombre": "Mancozeb",
+              "categoria": "Fungicida",
+              "cantidad": "5.0 kg",
+              "precio_unitario": "28,000 COP/kg",
+              "subtotal": "140,000 COP"
+            },
+            {
+              "nombre": "Tubérculo-semilla de papa",
+              "categoria": "Semilla",
+              "cantidad": "5000.0 kg",
+              "precio_unitario": "3,500 COP/kg",
+              "subtotal": "17,500,000 COP"
+            }
+          ]
+        },
+        "mano_obra": "6,000,000 COP",
+        "otros": "1,500,000 COP"
+      }
+    },
+    "estimacion_ingresos": {
+      "precio_interno": "1,000 COP/kg",
+      "precio_exportacion": "No disponible",
+      "rentabilidad_estimada": "25.00%"
+    }
+  },
+  "33_5.0ha": {
+    "area_hectareas": 5.0,
+    "inversion_inicial": {
+      "rango": "75,000,000 - 100,000,000 COP",
+      "promedio": "87,500,000 COP"
+    },
+    "costos_operativos": {
+      "total": "40,000,000 COP",
+      "desglose": {
+        "insumos": {
+          "total": "112,500 COP",
+          "detalle": [
+            {
+              "nombre": "Benomil",
+              "categoria": "Fungicida",
+              "cantidad": "2.5 kg",
+              "precio_unitario": "45,000 COP/kg",
+              "subtotal": "112,500 COP"
+            }
+          ]
+        },
+        "mano_obra": "16,000,000 COP",
+        "otros": "4,000,000 COP"
+      }
+    },
+    "estimacion_ingresos": {
+      "precio_interno": "19,000 COP/kg",
+      "precio_exportacion": "2.25 USD/kg",
+      "rentabilidad_estimada": "25.00%"
+    }
+  }
+}
